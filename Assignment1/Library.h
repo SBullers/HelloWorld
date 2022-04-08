@@ -15,24 +15,22 @@ using namespace std;
 class Library
 {
     public:
-        Library (const string &libraryName); 
+        explicit Library (string name);
         ~Library ();
-        bool AddBook (const string name);
-        bool RemoveBook (const string name);
+        bool AddBook (string name);
+        bool RemoveBook (string name);
         void ListAllBooks () const;
-        bool IsInLibrary (const string &name) const;     
+        bool IsInLibrary (string name) const;
+        int findBook(string name) const;
 
     private:
         string name;
         string libraryName;
         static const int MAX = 100;
-        string *books = new string[MAX];
+        string books[MAX];
         int numOfBooks;
-        int findBook(const string& name) const;
-
-    // friend function
-    friend ostream &operator << (ostream &out, const Library &lib);
-    
+        // friend function
+        friend ostream &operator << (ostream &out, const Library &lib);
 };
 
 #endif // LIBRARY_H

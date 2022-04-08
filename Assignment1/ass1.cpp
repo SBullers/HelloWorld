@@ -25,15 +25,19 @@ void Test1()
     assert(!result);
 
     // test remove, result should be true
-    result = libs.RemoveBook("The Odyssey");
+    // removal at index 2 should be The Odyssey now
+    // index 3 should now be nullptr
+    result = libs.RemoveBook("Ulysses");
     assert(result);
+    assert(libs.findBook("Ulysses") == -1);
+    assert(libs.findBook("The Odyssey") == 2);
 
     // not in library, result should be false
-    result = libs.IsInLibrary("The Odyssey");
+    result = libs.IsInLibrary("Ulysses");
     assert(!result);
 
     // cannot remove twice, result should be false
-    result = libs.RemoveBook("The Odyssey");
+    result = libs.RemoveBook("Ulysses");
     assert(!result);
 }
 
