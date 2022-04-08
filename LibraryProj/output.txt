@@ -1,0 +1,9 @@
+total 48
+drwxr-xr-x@ 8 samszie  staff   256 Apr  2 11:36 .
+drwxr-xr-x@ 9 samszie  staff   288 Apr  2 11:36 ..
+-rw-r--r--@ 1 samszie  staff  6148 Apr  2 11:27 .DS_Store
+-rw-r--r--  1 samszie  staff   101 Apr  2 11:32 Library.cpp
+-rw-r--r--  1 samszie  staff    16 Apr  2 11:32 Library.h
+-rw-r--r--  1 samszie  staff   110 Apr  2 11:32 ass1.cpp
+-rw-r--r--  1 samszie  staff     0 Apr  2 11:36 output.txt
+-rw-r--r--@ 1 samszie  staff   892 Apr  2 11:29 selfassessment.txt

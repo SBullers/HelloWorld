@@ -3,3 +3,6 @@ FirstProject*
 
 # executable files
 *.out
+*CMakeLists.txt
+*cmake-build-debug/
+*.idea/
