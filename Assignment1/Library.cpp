@@ -15,12 +15,12 @@ Library::Library(const string name)
     numOfBooks = 0;
 }
 
-// deconstructor
+// default deconstructor
 Library::~Library()
 = default;
 
-// AddBook: After checking if the book exists in the library, returns true if adding book successfully.
-// returns false if book is already in the library.
+// AddBook: uses findBook to check if the book is currently in the library.
+// If not (-1), it adds book to the library
 
 bool Library:: AddBook(const string name)
 {
@@ -38,8 +38,12 @@ bool Library:: AddBook(const string name)
     }
 }
 
-// RemoveBook:  returns true if book is removed successfully.
-// Returns false if books is not the library.
+// RemoveBook: Checks if there are any books in the library.
+// If there are no books, it returns false
+// Then it checks if there is only one book in the library. If yes, it removes book without index dipping below zero
+// If there are more than one book, it removes the book, shifts the last book to the place of the removed book and sets
+// the last book's memory to empty
+
 bool Library:: RemoveBook (const string name)
 {
     if (numOfBooks == 0)
@@ -75,7 +79,8 @@ void Library:: ListAllBooks () const
     }
     else
     {
-        cout << "Sara's Library: \n";
+        // overload of ostream
+        cout << *this;
         for (int i = 0; i < numOfBooks; i++)
         {
             cout << books[i] << endl;
@@ -101,7 +106,8 @@ bool Library:: IsInLibrary (const string name) const
     return returnVal;
 }
 
-// findBook:
+// findBook: searches to see if the name of the given book is in the library by using compare
+// returns index if the book is in the library
 int Library::findBook(const string name) const {
     // didn't find the book scenario
     int index = -1;
@@ -116,10 +122,11 @@ int Library::findBook(const string name) const {
     return index;
 }
 
-ostream &operator << (ostream out, const Library)
+// friend
+ostream &operator << (ostream &out, const Library &lib )
 {
 
-    out << "Sara's Library: " << endl;
+    out << lib.libraryName << ": " << endl;
     return out;
 };
 
