@@ -1,1 +1,16 @@
-zsh: no such file or directory: ./create-output.sh
+total 88
+drwxr-xr-x  15 samszie  staff   480 Apr 23 20:01 .
+drwxr-xr-x@ 11 samszie  staff   352 Apr 23 18:59 ..
+-rw-r--r--@  1 samszie  staff  6148 Apr 23 20:01 .DS_Store
+drwxr-xr-x   8 samszie  staff   256 Apr 23 19:50 .idea
+-rw-r--r--   1 samszie  staff   155 Apr  9 17:35 CMakeLists.txt
+-rw-r--r--   1 samszie  staff  3064 Apr 23 19:48 TimeSpan.cpp
+-rw-r--r--   1 samszie  staff  2611 Apr 23 19:48 TimeSpan.h
+drwxr-xr-x@  8 samszie  staff   256 Apr 23 19:54 assignment2
+-rw-r--r--   1 samszie  staff  2593 Apr 23 19:48 assignment2.cpp
+-rw-r--r--@  1 samszie  staff  5744 Apr 23 19:54 assignment2.zip
+-rwx------   1 samszie  staff  1775 Apr 23 19:38 check-code-coverage.sh
+drwxr-xr-x  11 samszie  staff   352 Apr 23 19:48 cmake-build-debug
+-rwx------   1 samszie  staff  4016 Apr 22 16:02 compile-test.sh
+-rw-r--r--@  1 samszie  staff     0 Apr 23 20:02 output.txt
+-rw-r--r--@  1 samszie  staff   928 Apr 23 18:38 selfassessment.txt
