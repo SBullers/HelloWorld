@@ -10,7 +10,7 @@ using namespace std;
 // Test 1 tests the creature solving a maze using maze.txt
 void test1 ()
 {
-    Maze maze("../maze.txt");
+    Maze maze("maze.txt");
     Creature C (5,15);
     cout << "Creature starting location: " << C <<endl;
     cout << "Path: ";
@@ -25,7 +25,7 @@ void test1 ()
 // Test 2 tests the creature using maze0.txt
 void test2()
 {
-    Maze maze ("../maze0.txt");
+    Maze maze ("maze0.txt");
     Creature C (2,7);
     cout << "Creature starting location: " << C <<endl;
     cout << "Path: " << endl;
@@ -41,7 +41,7 @@ void test2()
 // Test 3 tests the creature using mazeSimple.txt
 void test3()
 {
-    Maze maze ("../mazeSimple.txt");
+    Maze maze ("mazeSimple.txt");
     Creature C (1,1);
     cout << "Creature starting location: " << C <<endl;
     cout << "Path: "<< endl;
@@ -56,7 +56,7 @@ void test3()
 // Test 4 tests the creature using mazeNoExit1.txt
 void test4()
 {
-    Maze maze ("../mazeNoExit1.txt");
+    Maze maze ("mazeNoExit1.txt");
     Creature C (4,4);
     cout << "Creature starting location: " << C <<endl;
     cout << "Path: " << endl;
