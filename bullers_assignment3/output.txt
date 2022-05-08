@@ -1,0 +1,18 @@
+total 104
+drwxr-xr-x  17 samszie  staff   544 May  7 21:50 .
+drwxr-xr-x@ 11 samszie  staff   352 May  7 14:28 ..
+-rw-r--r--@  1 samszie  staff  6148 May  7 21:49 .DS_Store
+drwxr-xr-x   9 samszie  staff   288 May  7 21:49 .idea
+-rw-r--r--   1 samszie  staff   206 May  7 16:20 CMakeLists.txt
+-rw-r--r--   1 samszie  staff  1964 May  7 19:57 Creature.cpp
+-rw-r--r--   1 samszie  staff   913 May  7 19:57 Creature.h
+-rw-r--r--   1 samszie  staff  1610 May  7 21:29 Maze.cpp
+-rw-r--r--   1 samszie  staff   956 May  7 21:29 Maze.h
+-rw-r--r--   1 samszie  staff  1591 May  7 21:42 assignment3.cpp
+drwxr-xr-x  11 samszie  staff   352 May  7 21:32 cmake-build-debug
+-rw-r--r--@  1 samszie  staff   164 May  6 14:49 maze.txt
+-rw-r--r--@  1 samszie  staff    76 May  6 14:49 maze0.txt
+-rw-r--r--@  1 samszie  staff   107 May  6 14:50 mazeNoExit1.txt
+-rw-r--r--@  1 samszie  staff   108 May  7 21:07 mazeSimple.txt
+-rw-r--r--   1 samszie  staff     0 May  7 21:50 output.txt
+-rw-r--r--@  1 samszie  staff   913 May  7 21:37 selfassessment.txt

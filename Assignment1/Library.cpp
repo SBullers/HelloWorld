@@ -125,7 +125,6 @@ int Library::findBook(const string name) const {
 // friend
 ostream &operator << (ostream &out, const Library &lib )
 {
-
     out << lib.libraryName << ": " << endl;
     return out;
 };

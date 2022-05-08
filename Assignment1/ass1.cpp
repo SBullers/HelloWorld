@@ -45,7 +45,7 @@ void Test1()
 void Test2()
 {
     Library libs("UWB");
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 101; i++) {
         string bookName = "A Book " + to_string(i);
         libs.AddBook(bookName);
     }
