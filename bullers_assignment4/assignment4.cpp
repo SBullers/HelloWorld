@@ -1,8 +1,7 @@
 #include <iostream>
 
 #include "SkipList.h"
-
-#include <string>
+#include <cassert>
 
 using namespace std;
 
