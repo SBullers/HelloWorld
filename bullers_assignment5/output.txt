@@ -1,0 +1,19 @@
+total 136
+drwxr-xr-x  18 samszie  staff   576 Jun  5 16:31 .
+drwxr-xr-x@ 14 samszie  staff   448 Jun  5 16:27 ..
+-rw-r--r--@  1 samszie  staff  6148 Jun  5 15:23 .DS_Store
+drwxr-xr-x   8 samszie  staff   256 Jun  5 16:26 .idea
+-rw-r--r--   1 samszie  staff  5094 Jun  5 16:26 Account.cpp
+-rw-r--r--   1 samszie  staff  1449 Jun  5 15:35 Account.h
+-rw-r--r--   1 samszie  staff  3171 Jun  5 15:35 BSTree.cpp
+-rw-r--r--   1 samszie  staff  1311 Jun  5 15:35 BSTree.h
+-rw-r--r--   1 samszie  staff  8336 Jun  5 16:23 Bank.cpp
+-rw-r--r--   1 samszie  staff   950 Jun  5 15:35 Bank.h
+-rw-r--r--@  1 samszie  staff   514 May 29 15:05 BankTransIn.txt
+-rw-r--r--   1 samszie  staff   262 Jun  2 15:05 CMakeLists.txt
+-rw-r--r--   1 samszie  staff  1139 Jun  5 15:35 Fund.cpp
+-rw-r--r--   1 samszie  staff   961 Jun  5 15:35 Fund.h
+-rw-r--r--   1 samszie  staff   577 Jun  2 15:05 assignment5.cpp
+drwxr-xr-x  13 samszie  staff   416 Jun  5 16:26 cmake-build-debug
+-rw-r--r--   1 samszie  staff     0 Jun  5 16:31 output.txt
+-rw-r--r--@  1 samszie  staff   926 Jun  3 13:23 selfassessment.txt
